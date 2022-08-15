@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <title>Mercado Liebre</title>
+</head>
+<body>
+    <header>
+        <div class="logo-buscador">
+            <a class="logo" href="/"><img  src="img/logo-mercado-liebre.svg"  alt="logo mercado liebre arriba de todo"></a>
+            <div class="buscador">
+            <form action="../../form-result.php" method="post" target="_blank">
+                <p>
+                    <input type="search" name="Buscar productos" placeholder="Buscar productos, marcas">
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                </p>
+            </form>
+             </div>   
+            <p class="text-center2"><i class="fas fa-hand-holding-usd"></i> compra en cuotas sin tarjeta
+                de credito</p>
+        </div>
+            <nav class="navegacion">
+                <ul>
+                    <li><a href="/ofertas">Ofertas</a></li>
+                    <li><a href="/tiendas-oficiales">Tiendas oficiales</a></li>
+                    <li><a href="/vender">Vender</a></li>
+                    <li><a href="/ayuda">Ayuda</a></li>
+                </ul>
+                <ul>
+                    <li><a href="/crear-tu-cuenta">Crear tu cuenta</a><i class="far fa-id-card"></i></li>
+                    <li><a href="/ingresa">Ingresa</a><i class="fas fa-sign-in-alt"></i></li>
+                    <li><a href="/mis-compras">Mis compras</a><i class="fas fa-shopping-basket"></i></li>
+                </ul>
+            </nav>
+            <div class="burger-menu"><i class="fas fa-bars"></i></div>
+            
+    </header>
+    <main>
+    <form class="formFormulario" action="" method="POST" id="form">
+        <div class="form">
+            <h1>Ingresar</h1>
+            <div class="grupo">
+                <input class="inputForm" type="text" name="" id="name" required><span class="barra"></span>
+                <label for="">Nombre o Email</label>
+            </div>
+            <div class="grupo">
+                <input class="inputForm" type="password" name="" id="name" minlength="8" required><span class="barra"></span>
+                <label for="">Contraseña</label>
+            </div>
+            <button class="boton-ingresar" type="submit">Ingresar</button>
+        </div>
+    </form>
+</main>
+</body>
+</html>

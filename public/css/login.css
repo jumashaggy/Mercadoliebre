@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+/*letra roboto regular 400*/
+
+* {
+    margin: 0 px ;
+    padding: 0 px ;
+    box-sizing: border-box;
+    }
+/*-----------------header----------------*/
+
+body {
+    font-family: 'roboto';
+    margin: auto;
+    background-color: #ebebeb;
+    box-sizing: border-box;
+    
+}
+
+header {
+    margin: auto;
+    background-color: #EAC926;
+    box-sizing: border-box;  
+    padding-top: 10px; 
+}
+.text-center{
+    text-align: center;
+    box-sizing: border-box;
+}
+.text-center2{
+    text-align: center;
+    box-sizing: border-box;
+}
+.logo{
+    width: 40%;
+    margin: auto;
+    margin-right: 5px;
+}
+.burger-menu {
+    width: 40px;
+    height: 40px;
+    background-color: #1259c3;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-bottom: 10px;
+    padding-top: 6px;
+}
+.banner{
+    width: 100%;
+    height: 60px;
+    margin: auto;
+    box-sizing: border-box;
+}
+a{
+    color: #1c1c1b;
+}
+.navegacion{
+    display: none;
+    
+}
+.buscador{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    border: none;
+    border-radius: 5px;
+    width: 55%;
+    
+}
+.logo-buscador{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 2px;
+}
+/*-----------------main----------------*/
+
+:root{
+    --colorTextos: #49454567;
+ }
+ ::before,
+ ::after{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ body{
+    font-family: 'roboto';
+    margin: auto;
+    box-sizing: border-box;
+    
+ }
+ main{
+    width: 90%;
+    margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ h1{
+    text-align: center;
+ }
+ .formFomulario{
+    padding: 40px 0;
+ }
+ .form{
+    width: 90%;
+    margin: auto;
+ }
+ .grupo{
+    position: relative;
+    margin: 20px auto;
+    right: 15px;
+ }
+ .inputForm{
+   background: white;
+   color: #c6c6c6;
+   display: block;
+   width: 300px;
+   border: 1px solid ;
+   border-radius: 5px;
+   border-bottom: 1px solid var(--colorTextos);
+   height: 30px;
+       
+ }
+ .inputForm:focus{
+    outline: none;
+    color: #5e5d5d;
+ }
+ label{
+   font-family: 'roboto';
+   color: var(--colorTextos);
+   font-size: 18px;
+   position: absolute;
+   left: 5px;
+   top: 1px;
+   transition: 0.3s ease-in-out all;
+   pointer-events: none;
+   top: 4px;
+ }
+
+ input:focus~label,
+ input:valid~label{
+   top: -15px;
+   font-size: 12px;
+   color: #1259c3;
+ }
+ .barra{
+   position: relative;
+   display: block;
+   width: 100%;
+ }
+ .boton-ingresar{
+   display: flex;
+   font-family: 'roboto';
+   text-align: center;
+   background-color: #1259c3;
+   color: white;
+   border: none;
+   display: block;
+   margin: 10px auto;
+   border-radius: 8px;
+   height: 30px;
+   font-size: 14px;
+   cursor: pointer;
+   width: 80%;
+   transition: all 300ms;
+ }
+ .boton-ingresar:hover{
+  background-color: #0022AA;
+ }
+ .footerimg{
+   width: 35px;
+   height: 35px;
+   font-size: 25px;
+   color: #1259c3;
+   margin: auto;
+   margin-bottom: 0px;
+   text-align: center;
+   height: auto;
+   box-sizing: border-box;
+}
+.h2-footer{
+   margin-top: 2px;
+}
+
+@media (min-width: 361px){
+   .banner{
+       height: 110px;
+   }
+   .burger-menu{
+       display: none;      
+   }
+  .navegacion{
+   display: flex;
+   flex-wrap: wrap;
+   margin: auto;
+  }
+  .text-center{
+   text-align: inherit;
+   margin-left: 16px;
+  }
+
+}
+
+@media (min-width: 769px){
+   .burger-menu{
+       display: none;      
+   }
+   .banner{
+       height: 180px;
+   }
+   .navegacion{
+       display: flex;
+       
+        flex-direction: row;
+      }
+   .navegacion ul{
+       display: flex;  
+       margin: auto;
+       flex-direction: row;
+       padding: 4px;
+   }
+   .navegacion ul li{
+       margin: 10px;
+       text-decoration: none;
+       list-style:none;
+      
+   }
+   .navegacion ul li a{
+       text-decoration: none;
+       margin: 4px;
+       font-size: 15px;
+   }
+   header{
+       margin: 0 auto;
+       text-align: center;
+       align-items: center;
+   }  
+ ul{
+   margin: 0 auto;
+ }
+ .logo-buscador{
+   display: flex; 
+   margin: 1px auto;
+   text-align: center;
+   align-items: center;
+ }
+ .buscador p input{
+   font-size: 20px;
+    border-radius: 5px;
+ }
+ .buscador p button{
+   font-size: 20px;
+   border-radius: 5px;
+
+ }
+ .logo{
+   display: flex;
+   text-align: center;
+   align-items: normal;
+   margin: 0 auto;
+   width: 30%;
+   margin: 0 auto;
+   margin-right: 6px;
+ }
+
+  .buscador{
+    width: 39%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0; 
+  }
+  .text-center2{
+   width: 30%;
+   margin: 0 auto;   
+}
+}
+
+@media (min-width: 1055px){
+   .burger-menu{
+       display: none;      
+   }
+   .banner{
+       height: 200px;
+   }
+   .navegacion{
+       display: flex;
+        flex-direction: row;
+      }
+   .navegacion ul{
+       display: flex;  
+       margin: auto;
+   }
+   .navegacion ul li{
+       margin: 15px;
+       text-decoration: none;
+       list-style:none;
+      
+   }
+   .navegacion ul li a{
+       text-decoration: none;
+       margin: 4px;
+       font-size: 20px;
+   }
+   header{
+       margin: 0 auto;
+       text-align: center;
+       align-items: center;
+   }  
+ 
+ .logo-buscador{
+   display: flex; 
+   margin: 0 auto;
+   text-align: center;
+   align-items: center;
+   padding: 0;
+ }
+
+ .buscador p input{
+   font-size: 20px;
+    border-radius: 5px;
+ }
+ .buscador p button{
+   font-size: 20px;
+   border-radius: 5px;
+
+ }
+
+ .logo{
+   display: flex;
+   text-align: center;
+   align-items: normal;
+   margin: 0 auto;
+   width: 20%;
+   margin: 0 auto;
+   margin-left: 10px;
+ }
+
+  .buscador{
+   display: flex;
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .text-center2{
+   width: 40%;
+   margin: 0 auto; 
+}
+
+}
