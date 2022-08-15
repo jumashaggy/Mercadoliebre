@@ -4,7 +4,7 @@ const path = require('path');
 const { send } = require('process');
 app.use(express.static('public'));
 
-app.listen(4000, () =>   
+app.listen(precess.env.PORT || 4000, () =>   
 console.log("servidor Online")
 )
 app.get('/', (req, res) => {      // se puede usar tanto join, como resolve
