@@ -245,10 +245,10 @@ h2 {
         height: 180px;
     }
     .precio{
-        font-size: 13px;
+        font-size: 15px;
     }
     .descuento{
-        font-size: 15px;
+        font-size: 20px;
     }
     .navegacion{
         display: flex;
@@ -329,10 +329,10 @@ h2 {
         height: 200px;
     }
     .precio{
-        font-size: 13px;
+        font-size: 20px;
     }
     .descuento{
-        font-size: 15px;
+        font-size: 25px;
     }
     .navegacion{
         display: flex;
