@@ -51,7 +51,7 @@ header {
     margin-bottom: 10px;
     padding-top: 6px;
 }
-.burger-menu i.fas:hover .navegacion{
+.burger-menu:hover .navegacion{
     display: block;
 }
 .banner{
@@ -96,7 +96,8 @@ main{
 }
 .caja-descripcion{
     border-top: 1px solid #ebebeb;
-    padding: 15px 15px;
+    padding-top: 15px;
+    padding-left: 15px;
 }
 .h2-titulo{
     padding: 10px;
@@ -105,7 +106,7 @@ main{
     font-size: 20px;
     padding-right: 10px;
     transition: all 500ms;
-    
+    margin: 0;
 }
 
 .descuento {
@@ -113,10 +114,20 @@ main{
     color: #39b54a;
     transition: all 500ms;
 }
-
+.article-productos{
+    margin-bottom: 10px;
+    border-top: solid 1px #ebebeb;
+    background-color: white;
+    box-sizing: border-box;
+    width: 100%;
+    transition: all 350ms;
+    height: 400px;
+}
 .descripcion {
     font-size: 16px;
     box-sizing: border-box;
+    margin-top: 0px;
+    padding-top: 0px;
     margin-bottom: 10px;
     display: none;
     transition: all 500ms;
@@ -124,6 +135,7 @@ main{
 .precio-descuento:hover ~ .descripcion{
     display: flex;
 }
+
 .centrado {
     width: 30%;
     box-sizing: border-box;
@@ -149,21 +161,14 @@ main{
     color: #39b54a;
     left: 80%;
     bottom: 30px;
-    transition: all 300ms;
+    transition: all 500ms;
 }
+
 .truck:hover{
     transform: rotate(-90deg);
 
 }
 
-.article-productos{
-    margin-bottom: 10px;
-    border-top: solid 1px #ebebeb;
-    background-color: white;
-    box-sizing: border-box;
-    width: 100%;
-    transition: all 350ms;
-}
 .article-productos:hover{
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
